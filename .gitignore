@@ -1,3 +1,20 @@
+ml-security-hardening-pipeline/
+│
+├── .github/
+│   └── workflows/
+│       └── ml-security-ci.yml
+│
+├── security_tests/
+│   ├── adversarial_attack_test.py
+│   ├── data_poisoning_test.py
+│   └── model_extraction_test.py
+│
+├── model/
+│   └── dummy_model.py
+│
+├── requirements.txt
+└── README.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
